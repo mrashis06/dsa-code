@@ -15,7 +15,6 @@ struct Node* createNode(int data) {
     return newNode;
 }
 
-// Function to insert a node at the end
 void insertEnd(struct Node** head, int data) {
     struct Node* newNode = createNode(data);
     if (*head == NULL) {
